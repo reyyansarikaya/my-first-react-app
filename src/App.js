@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import MyComponent from './components/MyComponent'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. sd
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <MyComponent name="reyyan sarıkaya" > this is my children </MyComponent>
+        <MyComponent name="fatma sarıkaya" > this is my children </MyComponent>
     </div>
   );
 }
